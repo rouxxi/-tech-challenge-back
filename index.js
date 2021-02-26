@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const cors= require('cors');
-const PORT = 8080;
 const routes = require('./Routes/route')
 
 app.listen(PORT, () => {

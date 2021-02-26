@@ -3,7 +3,7 @@ const app = express();
 const cors= require('cors');
 const routes = require('./Routes/route')
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Vous etes bien sur le port : ${PORT}`)
 })
 
